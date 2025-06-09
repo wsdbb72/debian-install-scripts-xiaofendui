@@ -1,4 +1,4 @@
-<h1 align="center">📦 BT Tools All-in-One</h1>
+<h1 align="center">📦 ome potentially useful little tools from Kyomuroin</h1>
 <p align="center">
   <em>一站式工具集：qBittorrent、Vertex Tracker、种子/缩略图自动生成</em>
 </p>
