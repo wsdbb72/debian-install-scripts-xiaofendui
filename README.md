@@ -7,12 +7,11 @@
   <img src="https://img.shields.io/badge/platform-Debian%20%7C%20Ubuntu-blue?style=flat-square">
   <img src="https://img.shields.io/badge/status-active-brightgreen?style=flat-square">
   <img src="https://img.shields.io/badge/auto--install-supported-orange?style=flat-square">
-  <img src="https://t.tutu.to/img/PwL2I">
-  <img src="https://t.tutu.to/img/Pw5Ro">
 </p>
 
 ---
-
+  <img src="https://t.tutu.to/img/PwL2I">
+  <img src="https://t.tutu.to/img/Pw5Ro">
 ## 🔧 1. 自动安装 qBittorrent、 一键部署 Vertex (Docker)
 
 > 适合运行在服务器端，通过 Web UI 远程管理种子下载任务。
