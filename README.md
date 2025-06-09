@@ -63,6 +63,7 @@ cat /root/vertex/data/password
 ```bash
 sudo apt update && sudo apt install -y curl && curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scripts-xiaofendui/main/debian-install-all-xiaofendui.sh | bash && cat /root/vertex/data/password
 ```
+---
 ## 🧲 2. 自动制作种子脚本
 
 > 基于 `mktorrent`，快速为目录批量生成 `.torrent` 文件。
@@ -118,6 +119,10 @@ bash <(curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scrip
 
 NO LICENSE 😎
 
+---
+
 ## 🤝 Contributor
+
 - 赵厅 🙋‍♂️
 - 组长 🙋‍♀️ 
+---
