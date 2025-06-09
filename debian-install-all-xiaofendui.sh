@@ -46,10 +46,12 @@ docker run -d \
 echo "🎉 安装完成！"
 echo "📍 qBittorrent Web: http://<你的IP>:8080"
 echo "📍 Vertex Web:     http://<你的IP>:5000"
-
+sleep 5
 echo "🔑 Vertex 容器密码（来自 /root/vertex/data/password）："
 if [ -f /root/vertex/data/password ]; then
   cat /root/vertex/data/password
 else
   echo "❌ 文件 /root/vertex/data/password 不存在"
 fi
+sleep 2
+echo "📍 项目地址: https://github.com/wsdbb72/debian-install-scripts-xiaofendui"
