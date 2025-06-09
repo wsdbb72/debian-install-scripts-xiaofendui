@@ -91,6 +91,11 @@ bash <(curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scrip
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scripts-xiaofendui/main/thumbnail.sh)
 ```
+### ✨ 特性
+- 4线程生成缩略图
+- 以视频名称命名
+- 文件结构与视频文件相同
+- 过短视频自动截取第一帧并保存名称日志
 ---
 
 ## 🧱 系统要求
