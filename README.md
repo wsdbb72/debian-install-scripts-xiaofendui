@@ -34,7 +34,7 @@ http://你的服务器IP:8080
 
 > Vertex 是一个现代化、高性能、低资源占用的 BT Tracker 与私种管理器。
 
-### Vertex✨ 特性
+### ✨ Vertex特性
 
 - Docker 部署，无依赖污染
 - Web 界面管理 Tracker、用户和种子
