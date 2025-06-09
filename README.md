@@ -82,7 +82,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scrip
 
 ---
 
-## 📸 3.Ffmpeg缩略图生成器
+## 📸 3.FFMPEG缩略图生成器
 
 使用 `ffmpeg` + `parallel` 批量为视频生成拼接缩略图
 
