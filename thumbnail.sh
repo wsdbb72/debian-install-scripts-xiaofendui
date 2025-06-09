@@ -90,3 +90,4 @@ export SEARCH_DIR OUTPUT_DIR
 # 7. 并行处理
 printf "%s\n" "${VIDEO_LIST[@]}" | parallel --bar -j 4 gen_thumbnail {}
 
+echo "📍 项目地址: https://github.com/wsdbb72/debian-install-scripts-xiaofendui"
