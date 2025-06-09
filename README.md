@@ -63,7 +63,7 @@ sudo apt update && sudo apt install -y curl && curl -fsSL https://raw.githubuser
 ### ✨ 特性
 
 - 自动检查数据目录 & 输出目录
-- 强制要求输入 Tracker 地址（不提供默认）
+- 输入 Tracker 地址
 - 输出文件以目录名命名
 - 可与 qBittorrent 和 Vertex 联动使用
 
