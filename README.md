@@ -42,11 +42,13 @@ http://你的服务器IP:8080
 
 部署完成后访问：
 ```
-http://你的服务器IP:9000
+http://你的服务器IP:5000
 ```
 
-默认管理员账户和密码可在脚本末尾查看或初始化配置中设置。
-
+默认管理员账户和密码可在脚本末尾查看。如获取失败手动执行
+```bash
+cat /root/vertex/data/password
+```
 ---
 
 ### ▶️ 使用方式
@@ -76,6 +78,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scrip
 - 要打包为种子的目录路径
 - 输出 `.torrent` 文件保存路径
 - Tracker 地址（必须填写）
+- 无需加引号直接输入路径即可
 
 ---
 
@@ -93,7 +96,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scrip
 ## 🧱 系统要求
 
 - 操作系统：Debian / Ubuntu / WSL2
-- 权限：需要 sudo 权限
+- 权限：sudo 
 - 推荐环境：CPU 2C+ / 内存 1GB+
 
 ---
