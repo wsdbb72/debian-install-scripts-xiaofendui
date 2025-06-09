@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://tutu.to/image/899a9774bf8de67e9a38598353be3db.PwL2I">
+  <img src="https://t.tutu.to/img/PwL2I">
   <img src="https://img.shields.io/badge/platform-Debian%20%7C%20Ubuntu-blue?style=flat-square">
   <img src="https://img.shields.io/badge/status-active-brightgreen?style=flat-square">
   <img src="https://img.shields.io/badge/auto--install-supported-orange?style=flat-square">
