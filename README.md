@@ -10,8 +10,8 @@
 </p>
 
 ---
-  <img src="https://t.tutu.to/img/PwL2I">
-  <img src="https://t.tutu.to/img/Pw5Ro">
+  <img src="https://t.tutu.to/img/PwL2I"width="45%"/>
+  <img src="https://t.tutu.to/img/Pw5Ro"width="45%"/>
 ## 🔧 1. 自动安装 qBittorrent、 一键部署 Vertex (Docker)
 
 > 适合运行在服务器端，通过 Web UI 远程管理种子下载任务。
