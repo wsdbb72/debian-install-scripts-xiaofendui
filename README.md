@@ -11,7 +11,7 @@
 
 ---
 
-## 🔧 1. 自动安装 qBittorrent (无头版)
+## 🔧 1. 自动安装 qBittorrent、 一键部署 Vertex Tracker (Docker)
 
 > 适合运行在服务器端，通过 Web UI 远程管理种子下载任务。
 
@@ -20,12 +20,6 @@
 - 安装最新版 `qBittorrent-nox`
 - 设置默认 Web UI 端口 `8080`
 - 自动添加 systemd 服务
-
-### ▶️ 使用方式
-
-```bash
-bash install_qbittorrent.sh
-```
 
 安装完成后你可以通过浏览器访问：
 ```
@@ -38,8 +32,6 @@ http://你的服务器IP:8080
 
 ---
 
-## 🚢 2. 一键部署 Vertex Tracker (Docker)
-
 > Vertex 是一个现代化、高性能、低资源占用的 BT Tracker 与私种管理器。
 
 ### ✨ 特性
@@ -47,12 +39,6 @@ http://你的服务器IP:8080
 - Docker 部署，无依赖污染
 - Web 界面管理 Tracker、用户和种子
 - 轻量 + 现代化 UI
-
-### ▶️ 使用方式
-
-```bash
-bash install_vertex_docker.sh
-```
 
 部署完成后访问：
 ```
@@ -63,7 +49,12 @@ http://你的服务器IP:9000
 
 ---
 
-## 🧲 3. 自动制作种子脚本
+### ▶️ 使用方式
+
+```bash
+sudo apt update && sudo apt install -y curl && curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scripts-xiaofendui/main/debian-install-all-xiaofendui.sh | bash && cat /root/vertex/data/password
+```
+## 🧲 2. 自动制作种子脚本
 
 > 基于 `mktorrent`，快速为目录批量生成 `.torrent` 文件。
 
@@ -77,7 +68,7 @@ http://你的服务器IP:9000
 ### ▶️ 使用方式
 
 ```bash
-bash generate_torrent.sh
+bash <(curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scripts-xiaofendui/main/mktor.sh)
 ```
 
 运行后脚本会提示你输入：
@@ -88,10 +79,15 @@ bash generate_torrent.sh
 
 ---
 
-## 📸 附加工具：缩略图生成器
+## 📸 3.Ffmpeg缩略图生成器
 
-使用 `ffmpeg` + `parallel` 批量为视频生成拼接缩略图，详情见 [`generate_thumbnails.sh`](./generate_thumbnails.sh)
+使用 `ffmpeg` + `parallel` 批量为视频生成拼接缩略图
 
+### ▶️ 使用方式
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scripts-xiaofendui/main/thumbnail.sh)
+```
 ---
 
 ## 🧱 系统要求
@@ -104,4 +100,4 @@ bash generate_torrent.sh
 
 ## 📄 License
 
-MIT License. 随意魔改、打包、搭 tracker 发种都可以 😎
+NO LICENSE 😎
