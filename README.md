@@ -118,6 +118,6 @@ bash <(curl -fsSL https://raw.githubusercontent.com/wsdbb72/debian-install-scrip
 
 NO LICENSE 😎
 
-## Contributor
-- 赵厅
-- 组长
+## 🤝 Contributor
+- 🙋‍♂️ 赵厅
+- 🙋‍♀️ 组长
