@@ -38,4 +38,5 @@ echo "🚀 正在生成种子文件..."
 mktorrent -a "$TRACKER" -o "$TORRENT_PATH" "$DATA_DIR"
 
 echo "✅ 种子文件已生成: $TORRENT_PATH"
+echo "📍 项目地址: https://github.com/wsdbb72/debian-install-scripts-xiaofendui"
 
